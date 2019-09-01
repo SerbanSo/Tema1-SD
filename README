@@ -1,0 +1,32 @@
+Timp de implementare: 5 zile;
+
+
+Main:
+	Se citesc datele de intrare, apoi in functie de argumentele data la rulare se apeleaza task-urile corespunzatoare. La sfarsit se elibereaza memoria.
+
+
+Task 1:
+	Se formeaza o noua lista cu elementele ce respecta intervalul calculat. La sfarsit se elibereaza din memoria lista initiala, intrucat nu mai este nevoie de ea si se returneaza lista nou obtinuta.
+	Functiile "med" si "dev" returneaza media valorilor numerice, respectiv deviatia standard a valorilor. Implementarea acestora consta efectiv in aplicarea formulelor primite.
+
+
+Task 2:
+	SubTask 1:
+		Se formeaza o noua lista sortata (tmp) cu k elemente. Din aceasta lista se ia valoarea si timestamp-ul elementului de pe pozitia din mijloc si se introduc in intr-o noua lista (subLista). Dupa adaugare se elibereaza memoria ocupata de (tmp), iar la sfarsit se elibereaza memoria listei initiale si se returneaza (subLista).
+		Functia "sortare" alcatuieste lista (tmp) folosind bubble sort.
+
+	SubTask 2:
+		Pentru fiecare sublista de k elemente este calculata media aritmetica, rezultatul fiind adaugat intr-o noua lista. Lista initiala este eliberata din memorie, iar lista nou obtinuta este returnata.
+
+
+Task 3:
+	Daca diferentele temporale intre 2 date consecutive nu sunt in intervalul [0.1, 1], se modifica elementele din lista conform formulei date.
+
+
+Task 4:
+	Daca diferentele temporale intre 2 date consecutive sunt mai mari de 1 secunda se mai adauga elemente la interval de 200ms pana se ajunge la timestamp-ul maxim dintre cele 2 date. Valorile noilor elemente se calculeaza folosind formulele date.
+	Functiile "C", "w" si "f" reprezinta implementarile formulelor matematice primite.
+
+
+Bonus:
+	Se extrage lungimea intervalelor din argumentul primit la citire, apoi se determina punctul de pornire si cel de oprire al intervalului. Se sorteaza lista, apoi pentru fiecare interval sunt numarate punctele apartinand acestuia, urmand sa fie afisate.
